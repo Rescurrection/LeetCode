@@ -1,5 +1,5 @@
 // LeetCode, Search in Rotated Sorted Array II
-// 时间复杂度O(n)空间复杂度 O(1)
+// 时间复杂度O(n) 空间复杂度 O(1)
 class Solution 
 {
 public:
@@ -27,5 +27,6 @@ public:
        else
        first++;
     }
-  return false;
-}
+    
+    return false;
+};
